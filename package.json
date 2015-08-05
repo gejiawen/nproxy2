@@ -1,5 +1,5 @@
 {
-  "name": "RProxy",
+  "name": "nproxy2",
   "author": "Larry <806717031@qq.com> (http://gejiawen.github.io)",
   "version": "2.0.0",
   "description": "A cli proxy tool specialized in file replacing",
@@ -13,14 +13,14 @@
     "mocha": "*",
     "should": "*"
   },
-  "main": "./lib/rproxy",
-  "bin": {"rproxy": "./bin/rproxy"},
+  "main": "./lib/nproxy2",
+  "bin": {"rproxy": "./bin/nproxy2"},
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gejiawen/RProxy.git"
+    "url": "https://github.com/gejiawen/nproxy2.git"
   },
   "keywords": [
     "node.js",

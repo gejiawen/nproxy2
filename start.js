@@ -1,4 +1,4 @@
-var rproxy = require('./');
+var nproxy2 = require('./');
 
 var options = {
   timeout: 10,
@@ -6,4 +6,4 @@ var options = {
 };
 
 var port = 8989;
-rproxy(port, options );
+nproxy2(port, options );
