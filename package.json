@@ -1,7 +1,7 @@
 {
-  "name": "nproxy",
-  "author": "Goddy Zhao <goddy128@gmail.com> (http://goddyzhao.me)",
-  "version": "1.4.5",
+  "name": "RProxy",
+  "author": "Larry <806717031@qq.com> (http://gejiawen.github.io)",
+  "version": "2.0.0",
   "description": "A cli proxy tool specialized in file replacing",
   "dependencies": {
     "connect": "*",
@@ -13,14 +13,14 @@
     "mocha": "*",
     "should": "*"
   },
-  "main": "./lib/nproxy",
-  "bin": {"nproxy": "./bin/nproxy"},
+  "main": "./lib/rproxy",
+  "bin": {"rproxy": "./bin/rproxy"},
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/goddyZhao/nproxy.git"
+    "url": "https://github.com/gejiawen/RProxy.git"
   },
   "keywords": [
     "node.js",
