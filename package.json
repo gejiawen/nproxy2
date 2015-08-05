@@ -1,32 +1,34 @@
 {
-  "name": "nproxy2",
-  "author": "Larry <806717031@qq.com> (http://gejiawen.github.io)",
-  "version": "2.0.0",
-  "description": "A cli proxy tool specialized in file replacing",
-  "dependencies": {
-    "connect": "*",
-    "commander": "*",
-    "mime": "*",
-    "step": "*"
-  },
-  "devDependencies":{
-    "mocha": "*",
-    "should": "*"
-  },
-  "main": "./lib/nproxy2",
-  "bin": {"rproxy": "./bin/nproxy2"},
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gejiawen/nproxy2.git"
-  },
-  "keywords": [
-    "node.js",
-    "web",
-    "proxy",
-    "fiddler"
-  ],
-  "license": "MIT"
+    "name": "nproxy2",
+    "author": "Larry <806717031@qq.com> (http://gejiawen.github.io)",
+    "version": "2.0.1",
+    "description": "A cli proxy tool specialized in file replacing",
+    "dependencies": {
+        "connect": "*",
+        "commander": "*",
+        "mime": "*",
+        "step": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
+    "main": "./lib/nproxy2",
+    "bin": {
+        "nproxy2": "./bin/nproxy2"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gejiawen/nproxy2.git"
+    },
+    "keywords": [
+        "node.js",
+        "web",
+        "proxy",
+        "fiddler"
+    ],
+    "license": "MIT"
 }
