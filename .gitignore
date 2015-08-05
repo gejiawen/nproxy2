@@ -1,5 +1,2 @@
-node_modules/
-*.log
-*.DS_Store
-
-.idea/
+# Created by .ignore support plugin (hsz.mobi)
+.idea
